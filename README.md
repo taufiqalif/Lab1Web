@@ -85,4 +85,56 @@ maka akan tampil sebagaiberikut...
 
 ![heading.png](img/heading.png)
 
-10. 
+### Contoh pemformatan teks
+
+    <p>Teks <b>ini dicetak tebal</b></p>
+    <p>Teks <i>ini dicetak miring</i></p>
+    <p>Dan ini adalah <sub>subscript</sub> dan <sup>superscript</sup></p>
+
+![ss-17.png](img/ss-17.png)
+
+10. menambahkan gambar pada dokumen dengan menggunakan tag `img`
+
+![ss-18.png](img/ss-18.png)
+
+    <img src="..." alt="..." title="...">
+
+maka akan tampil sebagai berikut
+
+![ss-19.png](img/ss-19.png)
+
+
+11. membuat link navigasi menggunakan tag `nav` dan tag `a`
+
+![ss-21.png](img/ss-21.png)
+
+    <nav>
+      <a href="lab1_tag_dasar.html">Dasar HTML</a>
+      <a href="lab1_halaman2.html">Halaman 2</a>
+      <a href="https://www.google.co.id/">Halaman Web Eksternal Google</a>
+    </nav>
+
+tag `hr` berfungsi menambahkan garis 
+
+![ss-22.png](img/ss-22.png)
+
+## push kehalaman repository
+
+1. pertama buka `git bas` 
+2. masuk ke folder `Lab1Web`
+
+    cd Lab1Web
+
+![ss-23.png](img/ss-23.png)
+
+    git status -> untuk memeriksa apakah ada perubahan di repository
+    git add "nama file/folder" atau git add . -> untuk memasukan perubahan ke repository
+    git commit -m "pesan" -> untuk memberikan pesan atau deskripsi apa saja yang berubah
+    git push -> untuk mengirim file dari git bas ke github
+
+![ss-24.png](img/ss-24.png)
+![ss-25.png](img/ss-25.png)
+
+maka akan ada file html di github 
+
+![ss-26.png](img/ss-26.png)
