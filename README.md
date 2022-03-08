@@ -2,6 +2,8 @@
 
 Dasar - dasar tag HTML (Praktikum 1)
 
+HTML (HyperText Markup Language) adalah suatu bahasa yang menggunakan tanda-tanda tertentu (tag) untuk menyatakan kode-kode yang harus ditafsirkan oleh browser agar halaman tersebut dapat ditampilkan secara benar.
+
 ## Membuat Repository
 
 1. login github buat repository baru dengan judul **Lab1web**
@@ -33,7 +35,20 @@ setelah di clone maka akan ada folder dan file README
 
 ![ss-06.png](img/ss-06.png)
 
-5. buatlah struktur HTML 
+5. buatlah struktur HTML
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+    </head>
+    <body>
+  
+    </body>
+    </html>
 
 ![ss-07.png](img/ss-07.png)
 
